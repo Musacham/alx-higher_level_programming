@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""alphabet in lowercase, not followed by a new line."""
+import string
 
-for letter in range(97, 123):
-    print("{}".format(chr(letter)), end="")
+for i in string.ascii_lowercase:
+    print(i, end=" ")
